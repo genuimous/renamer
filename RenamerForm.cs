@@ -292,6 +292,11 @@ namespace Renamer
             }
         }
 
+        private void identityDensityTrackBar_ValueChanged(object sender, EventArgs e)
+        {
+            BuildExample();
+        }
+
         private void identityPrefixTextBox_TextChanged(object sender, EventArgs e)
         {
             BuildExample();

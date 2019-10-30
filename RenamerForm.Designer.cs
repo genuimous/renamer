@@ -219,6 +219,7 @@
             this.identityDensityTrackBar.TabIndex = 1;
             this.identityDensityTrackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
             this.identityDensityTrackBar.Value = 1;
+            this.identityDensityTrackBar.ValueChanged += new System.EventHandler(this.identityDensityTrackBar_ValueChanged);
             // 
             // identityDensityLabel
             // 
