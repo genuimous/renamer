@@ -69,7 +69,7 @@
             // logRichTextBox
             // 
             this.logRichTextBox.BackColor = System.Drawing.SystemColors.Window;
-            this.logRichTextBox.Location = new System.Drawing.Point(6, 234);
+            this.logRichTextBox.Location = new System.Drawing.Point(12, 240);
             this.logRichTextBox.Name = "logRichTextBox";
             this.logRichTextBox.ReadOnly = true;
             this.logRichTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
@@ -80,7 +80,7 @@
             // 
             // renameButton
             // 
-            this.renameButton.Location = new System.Drawing.Point(6, 362);
+            this.renameButton.Location = new System.Drawing.Point(12, 368);
             this.renameButton.Name = "renameButton";
             this.renameButton.Size = new System.Drawing.Size(75, 23);
             this.renameButton.TabIndex = 9;
@@ -90,7 +90,7 @@
             // 
             // progressBar
             // 
-            this.progressBar.Location = new System.Drawing.Point(87, 362);
+            this.progressBar.Location = new System.Drawing.Point(93, 368);
             this.progressBar.Name = "progressBar";
             this.progressBar.Size = new System.Drawing.Size(383, 23);
             this.progressBar.Step = 1;
@@ -100,7 +100,7 @@
             // logLabel
             // 
             this.logLabel.AutoSize = true;
-            this.logLabel.Location = new System.Drawing.Point(3, 218);
+            this.logLabel.Location = new System.Drawing.Point(9, 224);
             this.logLabel.Name = "logLabel";
             this.logLabel.Size = new System.Drawing.Size(25, 13);
             this.logLabel.TabIndex = 0;
@@ -108,7 +108,7 @@
             // 
             // directoryTextBox
             // 
-            this.directoryTextBox.Location = new System.Drawing.Point(6, 19);
+            this.directoryTextBox.Location = new System.Drawing.Point(12, 25);
             this.directoryTextBox.Name = "directoryTextBox";
             this.directoryTextBox.Size = new System.Drawing.Size(304, 20);
             this.directoryTextBox.TabIndex = 1;
@@ -116,7 +116,7 @@
             // directoryLabel
             // 
             this.directoryLabel.AutoSize = true;
-            this.directoryLabel.Location = new System.Drawing.Point(3, 3);
+            this.directoryLabel.Location = new System.Drawing.Point(9, 9);
             this.directoryLabel.Name = "directoryLabel";
             this.directoryLabel.Size = new System.Drawing.Size(49, 13);
             this.directoryLabel.TabIndex = 0;
@@ -124,7 +124,7 @@
             // 
             // browseButton
             // 
-            this.browseButton.Location = new System.Drawing.Point(395, 17);
+            this.browseButton.Location = new System.Drawing.Point(401, 23);
             this.browseButton.Name = "browseButton";
             this.browseButton.Size = new System.Drawing.Size(75, 23);
             this.browseButton.TabIndex = 3;
@@ -311,7 +311,7 @@
             // 
             this.kindTabControl.Controls.Add(this.identityTabPage);
             this.kindTabControl.Controls.Add(this.guidTabPage);
-            this.kindTabControl.Location = new System.Drawing.Point(6, 45);
+            this.kindTabControl.Location = new System.Drawing.Point(12, 51);
             this.kindTabControl.Name = "kindTabControl";
             this.kindTabControl.SelectedIndex = 0;
             this.kindTabControl.Size = new System.Drawing.Size(464, 131);
@@ -320,7 +320,7 @@
             // 
             // filterTextBox
             // 
-            this.filterTextBox.Location = new System.Drawing.Point(316, 19);
+            this.filterTextBox.Location = new System.Drawing.Point(322, 25);
             this.filterTextBox.Name = "filterTextBox";
             this.filterTextBox.Size = new System.Drawing.Size(73, 20);
             this.filterTextBox.TabIndex = 2;
@@ -328,7 +328,7 @@
             // filterLabel
             // 
             this.filterLabel.AutoSize = true;
-            this.filterLabel.Location = new System.Drawing.Point(313, 3);
+            this.filterLabel.Location = new System.Drawing.Point(319, 9);
             this.filterLabel.Name = "filterLabel";
             this.filterLabel.Size = new System.Drawing.Size(29, 13);
             this.filterLabel.TabIndex = 0;
@@ -336,7 +336,7 @@
             // 
             // exampleTextBox
             // 
-            this.exampleTextBox.Location = new System.Drawing.Point(6, 195);
+            this.exampleTextBox.Location = new System.Drawing.Point(12, 201);
             this.exampleTextBox.Name = "exampleTextBox";
             this.exampleTextBox.ReadOnly = true;
             this.exampleTextBox.Size = new System.Drawing.Size(383, 20);
@@ -345,7 +345,7 @@
             // exampleLabel
             // 
             this.exampleLabel.AutoSize = true;
-            this.exampleLabel.Location = new System.Drawing.Point(3, 179);
+            this.exampleLabel.Location = new System.Drawing.Point(9, 185);
             this.exampleLabel.Name = "exampleLabel";
             this.exampleLabel.Size = new System.Drawing.Size(83, 13);
             this.exampleLabel.TabIndex = 0;
@@ -353,7 +353,7 @@
             // 
             // extentionTextBox
             // 
-            this.extentionTextBox.Location = new System.Drawing.Point(395, 195);
+            this.extentionTextBox.Location = new System.Drawing.Point(401, 201);
             this.extentionTextBox.Name = "extentionTextBox";
             this.extentionTextBox.Size = new System.Drawing.Size(75, 20);
             this.extentionTextBox.TabIndex = 7;
@@ -361,7 +361,7 @@
             // extentionLabel
             // 
             this.extentionLabel.AutoSize = true;
-            this.extentionLabel.Location = new System.Drawing.Point(392, 179);
+            this.extentionLabel.Location = new System.Drawing.Point(398, 185);
             this.extentionLabel.Name = "extentionLabel";
             this.extentionLabel.Size = new System.Drawing.Size(51, 13);
             this.extentionLabel.TabIndex = 0;
@@ -371,7 +371,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(476, 391);
+            this.ClientSize = new System.Drawing.Size(488, 403);
             this.Controls.Add(this.extentionLabel);
             this.Controls.Add(this.extentionTextBox);
             this.Controls.Add(this.exampleLabel);

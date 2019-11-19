@@ -1,17 +1,22 @@
 ﻿using System.Windows.Forms;
 
-namespace Renamer
+namespace Utils
 {
-    public static class MessageDialog
+    public class MessageDialog
     {
+        public static void ShowInformation(string text)
+        {
+            MessageBox.Show(null, text, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
         public static void ShowError(string text)
         {
             MessageBox.Show(null, text, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
-        public static void ShowInformation(string text)
+        public static bool AskQuiestion(string text)
         {
-            MessageBox.Show(null, text, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            return MessageBox.Show(null, text, "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes;
         }
     }
 }

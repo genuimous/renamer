@@ -2,6 +2,9 @@
 using System.IO;
 using System.Windows.Forms;
 
+using static System.Math;
+using static Utils.MessageDialog;
+
 namespace Renamer
 {
     public partial class RenamerForm : Form
@@ -68,7 +71,7 @@ namespace Renamer
                     increment = increment + random.Next(random.Next(1, i + 1)) + random.Next(1);
                 }
 
-                identity = identity + Math.Max(1, increment) + random.Next(0, density + 1) + 1;
+                identity = identity + Max(1, increment) + random.Next(0, density + 1) + 1;
             }
             else
             {
@@ -245,16 +248,16 @@ namespace Renamer
                         // Display summary
                         if (fileCount > 0)
                         {
-                            MessageDialog.ShowInformation(fileCount.ToString() + " files has been processed successfully!");
+                            ShowInformation(fileCount.ToString() + " files has been processed successfully!");
                         }
                         else
                         {
-                            MessageDialog.ShowInformation("No files found!");
+                            ShowInformation("No files found!");
                         }
                     }
                     catch (Exception exception)
                     {
-                        MessageDialog.ShowError(exception.Message);
+                        ShowError(exception.Message);
                     }
                     finally
                     {
@@ -263,12 +266,12 @@ namespace Renamer
                 }
                 else
                 {
-                    MessageDialog.ShowError("Directory \"" + path + "\" does not exists!");
+                    ShowError("Directory \"" + path + "\" does not exists!");
                 }
             }
             else
             {
-                MessageDialog.ShowError("Please provide directory!");
+                ShowError("Please provide directory!");
             }
         }
 
@@ -288,7 +291,7 @@ namespace Renamer
             }
             catch
             {
-                MessageDialog.ShowError("Can't write configuration!");
+                ShowError("Can't write configuration!");
             }
         }
 
